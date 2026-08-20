@@ -1,0 +1,7 @@
+services:
+  productos:
+    build: .
+    container_name: productos-buscador
+    ports:
+      - "7002:80"
+    restart: unless-stopped
